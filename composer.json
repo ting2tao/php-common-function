@@ -1,0 +1,21 @@
+{
+    "name": "slovty/php-common-functions",
+    "description": "php-common-functions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "slovty",
+            "email": "1403528766@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Functions\\": "src/Functions/"
+        }
+    }
+}
